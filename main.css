@@ -1,0 +1,43 @@
+html, body, .container {
+    height: 100%;
+ 
+    
+    margin: 0;
+}
+
+#header {
+    height: 100px;
+    background-color: rgb(241, 173, 215);
+    display: flex;
+    justify-content: space-between;
+
+}
+#footer {
+    height: 100px;
+    background-color: rgb(241, 173, 215);
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgIcon {
+    height: 100px;
+    
+}
+#main {
+    height: calc( 100% - 200px ) ;
+    /* height: 200px; */
+    overflow: scroll;
+    
+}
+.post {
+height: auto;
+
+}
+.postFooter {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.thumbnail {
+    width: 100%;
+}
